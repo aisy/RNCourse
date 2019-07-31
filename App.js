@@ -29,9 +29,9 @@ export default class HelloWorldApp extends Component {
           title={" Kanan"}
         />
         <Card>
-          <Text>
-            {this.state.username}
-          </Text>
+          <Text>Username : {this.state.username}</Text>
+          <Button/>
+          <Button/>
         </Card>
       </View>
     );
